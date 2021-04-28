@@ -15,20 +15,24 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ARCHER04/react/issues"
-  },
-  "homepage": "https://github.com/ARCHER04/react#readme",
   "devDependencies": {
-    "webpack-cli": "^4.6.0"
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "mini-css-extract-plugin": "^1.3.4",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "@babel/cli": "^7.13.16",
-    "@babel/core": "^7.13.16",
-    "@babel/preset-env": "^7.13.15",
-    "babel-loader": "^8.2.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "webpack-dev-server": "^3.11.2"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
